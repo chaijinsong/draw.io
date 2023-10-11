@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T08:03:09.087Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FnOt-kvhqiSrzZi7p-_L" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T08:08:46.397Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oCeFe9_WjeoVEHN2DW2U" version="22.0.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2261" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,12 @@
         </mxCell>
         <mxCell id="fDUamY-TMNvM78CvobbD-45" value="任务处理模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fDUamY-TMNvM78CvobbD-36">
           <mxGeometry x="50" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDUamY-TMNvM78CvobbD-46" value="情报解析" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fDUamY-TMNvM78CvobbD-36">
+          <mxGeometry x="20" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDUamY-TMNvM78CvobbD-48" value="结果处理" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fDUamY-TMNvM78CvobbD-36">
+          <mxGeometry x="20" y="170" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
