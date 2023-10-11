@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T07:38:34.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UhWi1T6z6zHNZ24GE8yI" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T07:58:18.598Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="a6edvNs7X_NlGIuJwbOB" version="22.0.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2261" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,11 +46,35 @@
         <mxCell id="fDUamY-TMNvM78CvobbD-19" value="clear" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="fDUamY-TMNvM78CvobbD-2">
           <mxGeometry x="274" y="192" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fDUamY-TMNvM78CvobbD-21" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="140" width="200" height="200" as="geometry" />
+        <mxCell id="fDUamY-TMNvM78CvobbD-23" value="localServer" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="fDUamY-TMNvM78CvobbD-2">
+          <mxGeometry x="200" y="252" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fDUamY-TMNvM78CvobbD-22" value="DSL执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fDUamY-TMNvM78CvobbD-21">
+        <mxCell id="fDUamY-TMNvM78CvobbD-24" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="140" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fDUamY-TMNvM78CvobbD-25" value="DSL模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fDUamY-TMNvM78CvobbD-24">
           <mxGeometry x="60" y="10" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDUamY-TMNvM78CvobbD-29" value="localclient" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fDUamY-TMNvM78CvobbD-24">
+          <mxGeometry x="20" y="80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDUamY-TMNvM78CvobbD-30" value="localserve" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fDUamY-TMNvM78CvobbD-24">
+          <mxGeometry x="120" y="80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDUamY-TMNvM78CvobbD-31" value="connection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fDUamY-TMNvM78CvobbD-24">
+          <mxGeometry x="55" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDUamY-TMNvM78CvobbD-33" value="解释器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fDUamY-TMNvM78CvobbD-24">
+          <mxGeometry x="65" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDUamY-TMNvM78CvobbD-32" value="DSL转localClient请求" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fDUamY-TMNvM78CvobbD-24">
+          <mxGeometry x="20" y="170" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDUamY-TMNvM78CvobbD-34" value="执行器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fDUamY-TMNvM78CvobbD-24">
+          <mxGeometry x="65" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDUamY-TMNvM78CvobbD-35" value="控制DSL执行以及事务处理" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fDUamY-TMNvM78CvobbD-24">
+          <mxGeometry x="20" y="260" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
