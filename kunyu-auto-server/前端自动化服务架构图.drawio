@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T09:13:23.129Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="afGnqY1EekLx3ekV2J75" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T09:24:23.131Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5Y9hpmxAvFVX6hXqg1VZ" version="22.0.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1887" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -254,10 +254,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pLpwxtjD34FoSH7N6ikD-58" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="710" width="200" height="200" as="geometry" />
+          <mxGeometry x="-740" y="710" width="200" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="pLpwxtjD34FoSH7N6ikD-59" value="自动化业务处理模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-745" y="708" width="130" height="30" as="geometry" />
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-60" value="任务解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-58">
+          <mxGeometry x="40" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-61" value="情报解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-58">
+          <mxGeometry x="40" y="119" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-62" value="预校验模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-58">
+          <mxGeometry x="40" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-63" value="执行流程控制模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-58">
+          <mxGeometry x="40" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-65" value="异常处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-58">
+          <mxGeometry x="40" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-66" value="结果处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-58">
+          <mxGeometry x="40" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-59" value="自动化业务处理模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-58">
+          <mxGeometry x="35" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;exitX=1.012;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pLpwxtjD34FoSH7N6ikD-58" target="pLpwxtjD34FoSH7N6ikD-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-530" y="810" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
