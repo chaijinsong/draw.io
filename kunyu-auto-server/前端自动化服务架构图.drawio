@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T09:10:42.250Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wUnHTJ0uJyb1JqaJ59Ed" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T09:13:23.129Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="afGnqY1EekLx3ekV2J75" version="22.0.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1887" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -235,8 +235,29 @@
         <mxCell id="pLpwxtjD34FoSH7N6ikD-51" value="数据维护框架" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-50">
           <mxGeometry x="215" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pLpwxtjD34FoSH7N6ikD-52" value="连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-50">
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-52" value="服务端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-50">
           <mxGeometry x="160" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-53" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="710" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-54" value="DSL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-53">
+          <mxGeometry x="75" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-55" value="请求客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-53">
+          <mxGeometry x="40" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-56" value="DSL解释器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-53">
+          <mxGeometry x="40" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.021;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="pLpwxtjD34FoSH7N6ikD-53" target="pLpwxtjD34FoSH7N6ikD-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-58" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="710" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-59" value="自动化业务处理模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-745" y="708" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
