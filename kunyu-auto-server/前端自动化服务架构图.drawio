@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T14:49:55.896Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="jid9Bg0gqWKHmZUI_96K" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T14:58:01.839Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Fai2VrLvTWvnBqMZ2MPb" version="22.0.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1887" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -304,6 +304,29 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-530" y="810" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="B_VRzF-dYlXHqfT8-9vq-34" value="能力分析" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="1580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B_VRzF-dYlXHqfT8-9vq-48" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="B_VRzF-dYlXHqfT8-9vq-35" target="B_VRzF-dYlXHqfT8-9vq-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_VRzF-dYlXHqfT8-9vq-35" value="规格" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-570" y="1540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_VRzF-dYlXHqfT8-9vq-36" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="B_VRzF-dYlXHqfT8-9vq-35" parent="1" source="B_VRzF-dYlXHqfT8-9vq-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-615" y="1590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_VRzF-dYlXHqfT8-9vq-47" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-420" y="1540" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_VRzF-dYlXHqfT8-9vq-49" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-580" y="1600" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_VRzF-dYlXHqfT8-9vq-50" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=-0.046;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B_VRzF-dYlXHqfT8-9vq-34" target="B_VRzF-dYlXHqfT8-9vq-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
