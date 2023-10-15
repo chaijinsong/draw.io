@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T14:48:05.911Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZCGp2rI24SBcW7hHVzlU" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T14:49:55.896Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="jid9Bg0gqWKHmZUI_96K" version="22.0.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1887" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,8 +190,8 @@
         <mxCell id="pLpwxtjD34FoSH7N6ikD-29" value="" style="swimlane;startSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-190" y="770" width="200" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="pLpwxtjD34FoSH7N6ikD-30" value="接口层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="pLpwxtjD34FoSH7N6ikD-29" vertex="1">
-          <mxGeometry x="70" width="60" height="30" as="geometry" />
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-30" value="API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="pLpwxtjD34FoSH7N6ikD-29" vertex="1">
+          <mxGeometry x="80" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pLpwxtjD34FoSH7N6ikD-36" value="新增" style="rounded=0;whiteSpace=wrap;html=1;" parent="pLpwxtjD34FoSH7N6ikD-29" vertex="1">
           <mxGeometry x="20" y="50" width="60" height="30" as="geometry" />
