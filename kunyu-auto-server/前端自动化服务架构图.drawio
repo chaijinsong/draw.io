@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T14:45:13.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="J3_U5Quu0-2brernjYc4" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T14:48:05.911Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZCGp2rI24SBcW7hHVzlU" version="22.0.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1887" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,8 +258,8 @@
         <mxCell id="pLpwxtjD34FoSH7N6ikD-58" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
           <mxGeometry x="-740" y="710" width="220" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="pLpwxtjD34FoSH7N6ikD-59" value="自动化业务处理模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="pLpwxtjD34FoSH7N6ikD-58" vertex="1">
-          <mxGeometry x="45" width="130" height="30" as="geometry" />
+        <mxCell id="pLpwxtjD34FoSH7N6ikD-59" value="业务层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="pLpwxtjD34FoSH7N6ikD-58" vertex="1">
+          <mxGeometry x="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B_VRzF-dYlXHqfT8-9vq-4" value="" style="swimlane;startSize=0;dashed=1;strokeWidth=2;strokeColor=#7EA6E0;" vertex="1" parent="pLpwxtjD34FoSH7N6ikD-58">
           <mxGeometry x="30" y="230" width="160" height="160" as="geometry" />
