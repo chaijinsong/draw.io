@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T06:07:14.595Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xBuvxAiq8EkpK_GAcR4c" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T06:10:21.186Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i47o89ndRBgdPoPFNJSX" version="22.1.7" type="github">
   <diagram name="第 1 页" id="Mr3F32Vz5_e6f7zOzEb5">
     <mxGraphModel dx="989" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1980,7 +1980,7 @@
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-17" value="关注点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1229.02" y="5507" width="54" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="W-Enx7AZQwcgXBIYEE2c-18" value="1.任务领取：接入自动化任务流程、与任务调用方联调&lt;br&gt;&lt;br&gt;2. 任务检查：字段是否完整(task_id、task_code、db_type_name、src_id等必须字段)&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：可执行下一步&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记所有情报失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
+        <mxCell id="W-Enx7AZQwcgXBIYEE2c-18" value="1.任务领取：接入自动化任务流程、与任务调用方联调&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff0000&quot;&gt;预计12.15日前接入测试环境自动化任务流程&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;2. 任务检查：字段是否完整(task_id、task_code、db_type_name、src_id等必须字段)&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：可执行下一步&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记所有情报失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
           <mxGeometry x="1037" y="5589" width="479" height="111" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-19" value="1. 情报检查：字段完整性检查(info_id、bounds情报范围)&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：可执行下一步&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记本情报执行失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
@@ -1998,11 +1998,11 @@
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-23" value="1. 数据保存结果：&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：成功写入、可执行任务提交&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记情报执行失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
           <mxGeometry x="1037" y="6380.5" width="478" height="70.5" as="geometry" />
         </mxCell>
-        <mxCell id="W-Enx7AZQwcgXBIYEE2c-24" value="1. 任务提交结果：&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：任务结束&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：任务执行失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
+        <mxCell id="W-Enx7AZQwcgXBIYEE2c-24" value="1. 任务提交结果：&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff0000&quot;&gt;预计12.15日接入测试环境自动化任务流程&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：任务结束&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：任务执行失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
           <mxGeometry x="1037" y="6540.5" width="478" height="77" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-27" value="" style="dashed=0;labelPosition=right;align=left;shape=mxgraph.gmdl.checkbox;strokeColor=#B0B0B0;fillColor=none;strokeWidth=2;aspect=fixed;sketch=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="5601" width="16" height="16" as="geometry" />
+          <mxGeometry x="1050" y="5594" width="16" height="16" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-28" value="" style="dashed=0;labelPosition=right;align=left;shape=mxgraph.gmdl.checkbox;strokeColor=none;fillColor=#009587;strokeWidth=2;aspect=fixed;sketch=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="5629" width="16" height="16" as="geometry" />
