@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T06:10:21.186Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i47o89ndRBgdPoPFNJSX" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T06:11:07.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="z-goXLWLkZ4ytDtU0Bya" version="22.1.7" type="github">
   <diagram name="第 1 页" id="Mr3F32Vz5_e6f7zOzEb5">
     <mxGraphModel dx="989" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1986,7 +1986,7 @@
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-19" value="1. 情报检查：字段完整性检查(info_id、bounds情报范围)&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：可执行下一步&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记本情报执行失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
           <mxGeometry x="1037" y="5749" width="478" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W-Enx7AZQwcgXBIYEE2c-20" value="1. 数据加载结果：&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：可执行下一步&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记本情报执行失败&lt;br&gt;&lt;br&gt;优化项：&lt;br&gt;2. 数据缓存：同任务多情报时可以缓存数据、减少数据请求&lt;br&gt;&lt;br&gt;3. 分瓦片加载：情报范围过大时、拆分成更细的瓦片分多次加载、避免一次请求数据过多可能导致的接口耗时长、接口无响应等问题" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
+        <mxCell id="W-Enx7AZQwcgXBIYEE2c-20" value="1. 数据加载结果：&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：可执行下一步&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记本情报执行失败&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ababab&quot;&gt;优化项：&lt;br&gt;2. 数据缓存：同任务多情报时可以缓存数据、减少数据请求&lt;br&gt;&lt;br&gt;3. 分瓦片加载：情报范围过大时、拆分成更细的瓦片分多次加载、避免一次请求数据过多可能导致的接口耗时长、接口无响应等问题&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
           <mxGeometry x="1037" y="5871.62" width="478" height="134.75" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-21" value="1. 情报执行结果：&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; a. 成功：可执行下一步&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; b. 失败(link找不到、link已变更、代码报错等场景)：标记本情报执行失败&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 实时维护结果：&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; a. 成功：可执行下一步&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记本情报执行失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;fontSize=12;spacingLeft=40;" vertex="1" parent="1">
