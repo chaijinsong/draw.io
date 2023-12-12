@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T06:18:20.345Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vwAAnlEYIjm03abqBVkt" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T06:23:01.573Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="D47J2mUm34EIBZZSaVQ3" version="22.1.7" type="github">
   <diagram name="第 1 页" id="Mr3F32Vz5_e6f7zOzEb5">
     <mxGraphModel dx="989" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1951,26 +1951,23 @@
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-4" value="数据加载" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="5899" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="W-Enx7AZQwcgXBIYEE2c-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W-Enx7AZQwcgXBIYEE2c-6" target="W-Enx7AZQwcgXBIYEE2c-42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="W-Enx7AZQwcgXBIYEE2c-6" value="执行情报" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W-Enx7AZQwcgXBIYEE2c-6" value="数据修改" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="6059" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W-Enx7AZQwcgXBIYEE2c-10" target="W-Enx7AZQwcgXBIYEE2c-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-10" value="被动维护" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="6370" width="80" height="80" as="geometry" />
+          <mxGeometry x="870" y="6210" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W-Enx7AZQwcgXBIYEE2c-12" target="W-Enx7AZQwcgXBIYEE2c-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-12" value="数据保存" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="6530" width="80" height="80" as="geometry" />
+          <mxGeometry x="870" y="6370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-14" value="任务提交" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="6690" width="80" height="80" as="geometry" />
+          <mxGeometry x="870" y="6530" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-16" value="执行流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="879" y="5507" width="66" height="26" as="geometry" />
@@ -1987,17 +1984,17 @@
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-20" value="1. 数据加载结果：&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：可执行下一步&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记本情报执行失败&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ababab&quot;&gt;优化项：&lt;br&gt;2. 数据缓存：同任务多情报时可以缓存数据、减少数据请求&lt;br&gt;&lt;br&gt;3. 分瓦片加载：情报范围过大时、拆分成更细的瓦片分多次加载、避免一次请求数据过多可能导致的接口耗时长、接口无响应等问题&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
           <mxGeometry x="1037" y="5871.62" width="478" height="134.75" as="geometry" />
         </mxCell>
-        <mxCell id="W-Enx7AZQwcgXBIYEE2c-21" value="1. 情报执行结果：&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; a. 成功：进行数据修改&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; b. 失败(link找不到、link已变更、代码报错等场景)：标记本情报执行失败&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 实时维护结果：&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; a. 成功：进行数据修改&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记本情报执行失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;fontSize=12;spacingLeft=40;" vertex="1" parent="1">
+        <mxCell id="W-Enx7AZQwcgXBIYEE2c-21" value="1. 情报执行结果：&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; a. 成功：进行数据修改，可执行实时维护&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; b. 失败(link找不到、link已变更、代码报错等场景)：标记本情报执行失败&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;2. 实时维护结果：&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; a. 成功：进行数据修改，可执行被动维护&lt;br style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记本情报执行失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;fontSize=12;spacingLeft=40;" vertex="1" parent="1">
           <mxGeometry x="1037" y="6041.25" width="478" height="115.5" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-22" value="1. 被动维护结果：&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：可执行下一步&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：抛出log转人工任务、可继续执行下一步" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
-          <mxGeometry x="1037" y="6371.5" width="478" height="69.5" as="geometry" />
+          <mxGeometry x="1037" y="6211.5" width="478" height="69.5" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-23" value="1. 数据保存结果：&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：成功写入、可执行任务提交&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记情报执行失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
-          <mxGeometry x="1037" y="6531.5" width="478" height="70.5" as="geometry" />
+          <mxGeometry x="1037" y="6371.5" width="478" height="70.5" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-24" value="1. 任务提交结果：&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff0000&quot;&gt;预计12.15日接入测试环境自动化任务流程&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：任务结束&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：任务执行失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
-          <mxGeometry x="1037" y="6691.5" width="478" height="77" as="geometry" />
+          <mxGeometry x="1037" y="6531.5" width="478" height="77" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-27" value="" style="dashed=0;labelPosition=right;align=left;shape=mxgraph.gmdl.checkbox;strokeColor=#B0B0B0;fillColor=none;strokeWidth=2;aspect=fixed;sketch=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="5594" width="16" height="16" as="geometry" />
@@ -2018,13 +2015,13 @@
           <mxGeometry x="1050" y="6107" width="16" height="16" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-34" value="" style="dashed=0;labelPosition=right;align=left;shape=mxgraph.gmdl.checkbox;strokeColor=none;fillColor=#009587;strokeWidth=2;aspect=fixed;sketch=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="6384" width="16" height="16" as="geometry" />
+          <mxGeometry x="1050" y="6224" width="16" height="16" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-35" value="" style="dashed=0;labelPosition=right;align=left;shape=mxgraph.gmdl.checkbox;strokeColor=none;fillColor=#009587;strokeWidth=2;aspect=fixed;sketch=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="6545" width="16" height="16" as="geometry" />
+          <mxGeometry x="1050" y="6385" width="16" height="16" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-38" value="" style="dashed=0;labelPosition=right;align=left;shape=mxgraph.gmdl.checkbox;strokeColor=#B0B0B0;fillColor=none;strokeWidth=2;aspect=fixed;sketch=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="6707" width="16" height="16" as="geometry" />
+          <mxGeometry x="1050" y="6547" width="16" height="16" as="geometry" />
         </mxCell>
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-39" value="" style="dashed=0;labelPosition=right;align=left;shape=mxgraph.gmdl.checkbox;strokeColor=#666666;fillColor=none;strokeWidth=2;aspect=fixed;sketch=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="1054" y="5931.37" width="16" height="16" as="geometry" />
@@ -2032,17 +2029,10 @@
         <mxCell id="W-Enx7AZQwcgXBIYEE2c-40" value="" style="dashed=0;labelPosition=right;align=left;shape=mxgraph.gmdl.checkbox;strokeColor=#666666;fillColor=none;strokeWidth=2;aspect=fixed;sketch=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="1054" y="5975.37" width="16" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="W-Enx7AZQwcgXBIYEE2c-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-Enx7AZQwcgXBIYEE2c-42" target="W-Enx7AZQwcgXBIYEE2c-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="W-Enx7AZQwcgXBIYEE2c-42" value="数据修改" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="6219" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="W-Enx7AZQwcgXBIYEE2c-45" value="1. 数据修改结果：&lt;br&gt;&amp;nbsp; &amp;nbsp; a. 成功：可执行下一步&lt;br&gt;&amp;nbsp; &amp;nbsp; b. 失败：标记情报执行失败" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;spacingLeft=40;" vertex="1" parent="1">
-          <mxGeometry x="1034" y="6224.25" width="478" height="69.5" as="geometry" />
-        </mxCell>
-        <mxCell id="W-Enx7AZQwcgXBIYEE2c-46" value="" style="dashed=0;labelPosition=right;align=left;shape=mxgraph.gmdl.checkbox;strokeColor=none;fillColor=#009587;strokeWidth=2;aspect=fixed;sketch=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="6237" width="16" height="16" as="geometry" />
+        <mxCell id="W-Enx7AZQwcgXBIYEE2c-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="W-Enx7AZQwcgXBIYEE2c-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="909.9999999999998" y="6139" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
