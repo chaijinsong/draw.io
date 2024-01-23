@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T03:04:07.783Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CZL5FiPIE0_b5_ooU4IB" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T03:19:43.263Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2heFH2wc5iJXKyYzXk55" version="22.1.21" type="github">
   <diagram name="第 1 页" id="FY-xIF_TODYC99Cx_3Zc">
-    <mxGraphModel dx="1912" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,31 +8,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-1" value="删除车道" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="430" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-2" target="7bgz3PSP9BumeOhjPw4N-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7bgz3PSP9BumeOhjPw4N-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7bgz3PSP9BumeOhjPw4N-5">
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-6" value="N&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7bgz3PSP9BumeOhjPw4N-5">
           <mxGeometry x="-0.1059" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7bgz3PSP9BumeOhjPw4N-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-2" target="7bgz3PSP9BumeOhjPw4N-12">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="370" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-2" target="7bgz3PSP9BumeOhjPw4N-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7bgz3PSP9BumeOhjPw4N-14" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7bgz3PSP9BumeOhjPw4N-11">
-          <mxGeometry x="-0.1778" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-2" value="被删除是否存在停止线-车道关系" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="160" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7bgz3PSP9BumeOhjPw4N-2" value="是否存在停止线-车道关系" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="230" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7bgz3PSP9BumeOhjPw4N-4" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-4" value="跳过维护" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-12" target="7bgz3PSP9BumeOhjPw4N-15">
           <mxGeometry relative="1" as="geometry" />
@@ -51,10 +44,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-12" value="区分路段停止线/路口停止线" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="400" width="120" height="80" as="geometry" />
+          <mxGeometry x="1160" y="680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-15" value="发log + 结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="1410" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-24" target="7bgz3PSP9BumeOhjPw4N-26">
           <mxGeometry relative="1" as="geometry" />
@@ -73,10 +66,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-24" value="找停止线作用车道组" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="560" width="120" height="80" as="geometry" />
+          <mxGeometry x="1160" y="840" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-26" value="发log + 结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="1410" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-35" target="7bgz3PSP9BumeOhjPw4N-37">
           <mxGeometry relative="1" as="geometry" />
@@ -95,10 +88,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-35" value="维护停止线新形态&lt;br&gt;(复用部分停止线&lt;br&gt;形态维护逻辑)" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="730" width="120" height="80" as="geometry" />
+          <mxGeometry x="1160" y="1010" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-37" value="发log + 结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="1410" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-40" target="7bgz3PSP9BumeOhjPw4N-45">
           <mxGeometry relative="1" as="geometry" />
@@ -117,13 +110,56 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-40" value="停止线关系自动化逻辑(完全复用实时维护逻辑)" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="890" width="120" height="80" as="geometry" />
+          <mxGeometry x="1160" y="1170" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-45" value="发log + 结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="900" width="120" height="60" as="geometry" />
+          <mxGeometry x="1410" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7bgz3PSP9BumeOhjPw4N-47" value="更新关系" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1060" width="120" height="60" as="geometry" />
+          <mxGeometry x="1160" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-51" target="7bgz3PSP9BumeOhjPw4N-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-51" value="获取旧停止线-车道关系" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-53" target="7bgz3PSP9BumeOhjPw4N-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-57" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7bgz3PSP9BumeOhjPw4N-55">
+          <mxGeometry x="0.0578" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-53" target="7bgz3PSP9BumeOhjPw4N-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-53" value="旧停止线-车道关系是否作用于多个车道？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="400" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-54" value="发送log 上报" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-61" target="7bgz3PSP9BumeOhjPw4N-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-61" value="从停止线-车道关系中提取停止线" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7bgz3PSP9BumeOhjPw4N-63" target="7bgz3PSP9BumeOhjPw4N-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-68" value="路段中停止线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7bgz3PSP9BumeOhjPw4N-67">
+          <mxGeometry x="-0.0477" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-63" value="停止线是什么类型？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7bgz3PSP9BumeOhjPw4N-66" value="发送log上报" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
