@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T03:23:40.615Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="HdLujDo_mmIbYIA3EEpx" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T03:28:25.010Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="dj1A-CwAXfBqbCh4d0Js" version="24.4.6" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1687" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3559" dy="1448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,11 @@
         <mxCell id="1749" value="2024目标&amp;amp;&lt;span style=&quot;background-color: initial;&quot;&gt;抓手&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#2F5B7C;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="495" y="380.5" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1760" value="连接路专项&lt;div&gt;作业效率提升&lt;/div&gt;&lt;div&gt;890 -&amp;gt; 1200&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="170" y="260" width="150" height="60" as="geometry" />
+        <mxCell id="RV0SAbKCL9Ii59QLvF3b-1873" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#12AAB5;strokeWidth=3;align=center;verticalAlign=middle;spacing=5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;fillColor=#b0e3e6;" edge="1" parent="1" source="1760" target="RV0SAbKCL9Ii59QLvF3b-1863">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1760" value="地图中台能力&lt;div&gt;T+3d 支持新产线&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="160" y="380.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RV0SAbKCL9Ii59QLvF3b-1825" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#12AAB5;strokeWidth=3;align=center;verticalAlign=middle;spacing=5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;fillColor=#b0e3e6;" edge="1" parent="1" source="1771" target="RV0SAbKCL9Ii59QLvF3b-1792">
           <mxGeometry relative="1" as="geometry" />
@@ -44,14 +47,14 @@
         <mxCell id="RV0SAbKCL9Ii59QLvF3b-1849" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#12AAB5;strokeWidth=3;align=center;verticalAlign=middle;spacing=5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;fillColor=#b0e3e6;" edge="1" parent="1" source="1771" target="RV0SAbKCL9Ii59QLvF3b-1796">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="870" y="1360" />
+              <mxPoint x="870" y="1860" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RV0SAbKCL9Ii59QLvF3b-1850" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#12AAB5;strokeWidth=3;align=center;verticalAlign=middle;spacing=5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;fontStyle=1;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;fillColor=#b0e3e6;" edge="1" parent="1" source="1771" target="RV0SAbKCL9Ii59QLvF3b-1797">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="870" y="1520" />
+              <mxPoint x="870" y="2020" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -154,10 +157,10 @@
           <mxGeometry x="1019" y="940" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RV0SAbKCL9Ii59QLvF3b-1796" value="6. 实施和监控" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="1019" y="1330" width="150" height="60" as="geometry" />
+          <mxGeometry x="1010" y="1830" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RV0SAbKCL9Ii59QLvF3b-1797" value="7. 反馈和调整" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="1019" y="1490" width="150" height="60" as="geometry" />
+          <mxGeometry x="1010" y="1990" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RV0SAbKCL9Ii59QLvF3b-1798" value="交规类专项作业效率提升" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
           <mxGeometry x="1470" y="50.5" width="150" height="60" as="geometry" />
@@ -277,6 +280,27 @@
         </mxCell>
         <mxCell id="RV0SAbKCL9Ii59QLvF3b-1853" value="&lt;div&gt;连接路专项 有效任务 整体耗时减少 x 秒&lt;/div&gt;&lt;div&gt;1. 9月底 自动化根据情报删除要素 1s&lt;/div&gt;&lt;div&gt;2. 9月底 自动化根据情报或人工辅助自动写入路网形态 2s&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 9月底 地图拖动操作、支持快捷键拖屏 节省时间待定&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. 9月底 打标操作优化、新增标签、减少用户复制粘贴操作 节省2s&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5. 9月底 实现连接路模式化挂接 减少时间待定&lt;/span&gt;&lt;/div&gt;&lt;div&gt;6. 9月底 完全实现自动化编辑、支持新增关系或形态写入 节省时间待确定具体规格后评估&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;glass=0;" vertex="1" parent="1">
           <mxGeometry x="1730" y="1540" width="350" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0SAbKCL9Ii59QLvF3b-1863" value="1. 理解和定义目标" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="380.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0SAbKCL9Ii59QLvF3b-1865" value="明确目标" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="269.63" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0SAbKCL9Ii59QLvF3b-1867" value="确定时间框架" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="380.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0SAbKCL9Ii59QLvF3b-1869" value="定义预期结果" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="486.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0SAbKCL9Ii59QLvF3b-1870" value="交规类专项作业效率提升" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="269.63" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0SAbKCL9Ii59QLvF3b-1871" value="2024年底" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="384" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0SAbKCL9Ii59QLvF3b-1872" value="单人效率从 604/人天&amp;nbsp;&lt;div&gt;-&amp;gt; 900/人天&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="486.5" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
