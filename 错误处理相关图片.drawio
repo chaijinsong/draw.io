@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-09-13T09:30:57.093Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="K-WZ2JIUw60ImZlvKDH0" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-09-13T09:41:27.916Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="VXpWATMWc0Pi3BqTItV-" version="24.7.1" type="github">
   <diagram name="第 1 页" id="vcvGQQvWgvCkvQoSG0Wb">
     <mxGraphModel dx="954" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uQnkR5oncuJnE6Joskx9-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="663.5" width="423" height="423" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-25" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="385" y="827" width="250" height="250" as="geometry" />
+        </mxCell>
         <mxCell id="uQnkR5oncuJnE6Joskx9-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uQnkR5oncuJnE6Joskx9-2" target="uQnkR5oncuJnE6Joskx9-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -49,17 +55,38 @@
         <mxCell id="uQnkR5oncuJnE6Joskx9-20" value="业务逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="592.5" y="430" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uQnkR5oncuJnE6Joskx9-22" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="440" y="900" width="170" height="170" as="geometry" />
+        <mxCell id="uQnkR5oncuJnE6Joskx9-22" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="900" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="uQnkR5oncuJnE6Joskx9-21" value="业务逻辑" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="470" y="980" width="80" height="80" as="geometry" />
+        <mxCell id="uQnkR5oncuJnE6Joskx9-21" value="业务逻辑" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="420" y="980" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="uQnkR5oncuJnE6Joskx9-23" value="功能模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="440" y="950" width="70" height="30" as="geometry" />
+        <mxCell id="uQnkR5oncuJnE6Joskx9-23" value="功能模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="920" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uQnkR5oncuJnE6Joskx9-24" value="错误处理逻辑" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="520" y="920" width="60" height="60" as="geometry" />
+        <mxCell id="uQnkR5oncuJnE6Joskx9-24" value="错误处理逻辑" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="500" y="950" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-26" value="错误监听器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="840" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-28" value="全局异常捕获" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="680" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-29" value="window.onerror&lt;div&gt;未捕获异常&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="375" y="780" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-30" value="addEventListener(&#39;error&#39;)&lt;div&gt;资源加载类错误&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="461.5" y="720" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-31" value="onunhandledrejection未处理的promise reject 错误处理" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="570" y="780" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-32" value="try catch" style="ellipse;whiteSpace=wrap;html=1;fillColor=#eaf1fb;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="860" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-33" value="error boundary" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#eaf1fb;" vertex="1" parent="1">
+          <mxGeometry x="560" y="910" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
