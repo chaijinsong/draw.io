@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-09-13T09:13:34.368Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="bKIW1Nmem5S1nGoMSEiN" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-09-13T09:22:58.576Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="3ASKnvvFCTbm-8xOhZ0e" version="24.7.1" type="github">
   <diagram name="第 1 页" id="vcvGQQvWgvCkvQoSG0Wb">
     <mxGraphModel dx="954" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -16,9 +16,6 @@
         <mxCell id="uQnkR5oncuJnE6Joskx9-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="70" y="190" width="380" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="uQnkR5oncuJnE6Joskx9-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="290" y="400" width="120" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="uQnkR5oncuJnE6Joskx9-4" value="onerror&lt;div&gt;全局错误处理&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="50" width="120" height="80" as="geometry" />
         </mxCell>
@@ -27,6 +24,18 @@
         </mxCell>
         <mxCell id="uQnkR5oncuJnE6Joskx9-6" value="&lt;div&gt;addEventListener(&#39;error&#39;)&lt;/div&gt;&lt;div&gt;资源加载类错误&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-13" value="ErrorBoundary&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="344" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-14" value="React 组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="380" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-15" value="try catch&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="314" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-16" value="React 组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="414" width="85" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
