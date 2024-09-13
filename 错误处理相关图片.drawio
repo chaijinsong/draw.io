@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-09-13T09:22:58.576Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="3ASKnvvFCTbm-8xOhZ0e" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-09-13T09:30:57.093Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="K-WZ2JIUw60ImZlvKDH0" version="24.7.1" type="github">
   <diagram name="第 1 页" id="vcvGQQvWgvCkvQoSG0Wb">
     <mxGraphModel dx="954" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -28,14 +28,38 @@
         <mxCell id="uQnkR5oncuJnE6Joskx9-13" value="ErrorBoundary&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="344" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="uQnkR5oncuJnE6Joskx9-14" value="React 组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="380" width="85" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="uQnkR5oncuJnE6Joskx9-15" value="try catch&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="314" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="uQnkR5oncuJnE6Joskx9-16" value="React 组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="137.5" y="414" width="85" height="50" as="geometry" />
+          <mxGeometry x="127.5" y="404" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-14" value="非组件模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="370" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-18" value="error wrapper&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="566.25" y="260" width="157.5" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-17" value="功能模块&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="310" width="120" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-19" value="error handle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="592.5" y="360" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-20" value="业务逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="592.5" y="430" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-22" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="900" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-21" value="业务逻辑" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="980" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-23" value="功能模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="950" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uQnkR5oncuJnE6Joskx9-24" value="错误处理逻辑" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="920" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
